@@ -5,9 +5,59 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: aliceblue;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+/* Media Query */
+@media (max-width: 900px) {
+}
+/*  Customiszed BOOTSTRAP */
+.underline {
+  border-radius: 50px;
+  height: 3px;
+  width: 5rem;
+  background-color: red;
+}
+.size{
+  font-size: 1.2rem;
+}
+.mt-max {
+  margin-top: 6rem;
+}
+.mt-lg{
+  margin-top: 4rem
+}
+.card {
+  height: 12rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+.h-s {
+ height: 4rem;
+}
+.form-control {
+  border: none;
+  text-transform: capitalize;
+  font-size: 1.3rem;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+.input-group {
+  border-bottom: 2px grey solid;
+}
+.input-group-text {
+  background: none;
+  height: 100%;
+  border: none;
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+
+.btn:focus{
+  box-shadow: none;
 }
